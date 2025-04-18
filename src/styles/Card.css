@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: 8px solid #74b9ff;
+  /* background-color: #ffffff; */
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  max-width: 1200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  height: 200px;
+  /* background-color: #ffffff; */
+  border-radius: 8px;
+}
+
+.card:hover {
+  border-color: #f5d97d;
+  box-shadow: 0 0 10px 4px rgba(245, 217, 125, 0.8);
+  transform: scale(1.05);
+}
+
+.card:hover img {
+  transform: rotate(5deg); /* Add rotation effect to images on hover */
+}

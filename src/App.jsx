@@ -11,7 +11,7 @@ function App() {
         <div className="leftside">
           <div className="title">Pokémon Memory Game</div>
           <div className="instructions">
-            Match pairs of Pokémon images to earn points, but be careful,
+            Click on Pokémon images to earn points, but be careful,
           </div>
           <div className="instructions2">
             clicking on the same card more than once will reset your score.

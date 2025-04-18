@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  /* background-color: #f8f9fa; */
   padding: 10px;
   height: 100vh;
   margin: 0 auto;

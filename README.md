@@ -8,7 +8,7 @@ Click on Pokémon cards to earn points, but **don’t click the same one twice**
   <img src="./screenshot.png"/>
 </p>
 
-## Live Demo: [Pokémon Memory Game](https://tiffanyluu.github.io/pokemon-memory-game/)
+## Live Demo: [Pokémon Memory Game](https://tiffany-pokemon-memory-game.vercel.app/)
 
 ## How to Play
 

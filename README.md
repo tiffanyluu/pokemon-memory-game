@@ -10,7 +10,7 @@ Click on Pokémon cards to earn points, but **don’t click the same one twice**
 
 ## Live Demo: [Pokémon Memory Game](https://tiffany-pokemon-memory-game.vercel.app/)
 
-## How to Play
+How to Play
 
 - Click a Pokémon card to earn 1 point.
 - Don’t click the same card more than once.

@@ -19,8 +19,10 @@ export default function Card({ url, onClick }) {
 
   if (!data) return <div className="card">Loading...</div>;
 
-  const rawName = data.name.split("-")[0];
-  const name = rawName.charAt(0).toUpperCase() + rawName.slice(1);
+  const name = data.name
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 
   return (
     <div className="card" onClick={onClick}>

@@ -1,7 +1,7 @@
 import "../styles/Card.css";
 import { useEffect, useState } from "react";
 
-export default function Card({ url, onClick }) {
+export default function Card({ url, onClick, glow }) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -10,8 +10,8 @@ export default function Card({ url, onClick }) {
         const response = await fetch(url);
         const json = await response.json();
         setData(json);
-      } catch {
-        alert("error");
+      } catch (error) {
+        console.error("Error fetching Pokemon data:", error);
       }
     };
     getAPIResource();
@@ -25,7 +25,7 @@ export default function Card({ url, onClick }) {
     .join(" ");
 
   return (
-    <div className="card" onClick={onClick}>
+    <div className={`card ${glow ? "glowing-card" : ""}`} onClick={onClick}>
       <img src={data.sprites.front_default} alt={name} />
       <div className="card-name">{name}</div>
     </div>

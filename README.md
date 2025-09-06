@@ -5,7 +5,7 @@ A memory game featuring over **1000 Pokémon** using the [PokéAPI](https://poke
 Click on Pokémon cards to earn points, but **don’t click the same one twice** or your score resets!
 
 <p align="center">
-  <img src="./screenshot.png"/>
+  <img src="./pic.png"/>
 </p>
 
 ## Live Demo: [Pokémon Memory Game](https://tiffany-pokemon-memory-game.vercel.app/)
